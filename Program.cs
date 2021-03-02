@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace CSharp_Math_Library
+namespace MathLib
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Vector vec = new Vector(1, 2);
+
+            Console.WriteLine(vec.Magnitude);
+
+            Console.WriteLine(vec.Normalized.Magnitude);
         }
     }
 }
