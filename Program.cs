@@ -12,8 +12,7 @@ namespace MathLib
 
             Vector b = new Vector(0, 1, 0);
 
-            Console.WriteLine(Trigonometry.Sine(Math.PI / 2d, 35));
-
+            Console.WriteLine(Trigonometry.Cosine(Math.PI, 35));
         }
     }
 }
