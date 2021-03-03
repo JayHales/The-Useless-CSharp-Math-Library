@@ -12,9 +12,8 @@ namespace MathLib
 
             Vector b = new Vector(0, 1, 0);
 
-            Console.WriteLine(Derivations.EulersNumber(100));
+            Console.WriteLine(Trigonometry.Sine(Math.PI / 2d, 35));
 
-            Console.WriteLine(100.Factorial());
         }
     }
 }

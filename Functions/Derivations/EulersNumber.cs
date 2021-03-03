@@ -5,7 +5,7 @@ using MathLib.Operations;
 
 namespace MathLib.Functions
 {
-    static class Derivations
+    static partial class Derivations
     {
         public static double EulersNumber(int depth)
         {
