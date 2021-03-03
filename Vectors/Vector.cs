@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MathLib
+namespace MathLib.Vectors
 {
     /// <summary>
     /// A 3 dimensional cartesian vector.
@@ -118,9 +118,9 @@ namespace MathLib
         /// <summary>
         /// Finds the angle between two vectors. Found by taking the dot product and dividing it by the product of the two magnitudes. This effectively rearranges the dot product equation.
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        /// <param name="a">The first vector</param>
+        /// <param name="b">The second vector</param>
+        /// <returns>The angle between the two vectors.</returns>
         public static double AngleBetween(Vector a, Vector b)
         {
             double cosTheta = DotProduct(a, b) / (a.Magnitude * b.Magnitude);
