@@ -1,4 +1,4 @@
-# The-Useless-Math-Library
+# The Useles Mat Library
 A useless CSharp math library with loads of stuff you would never need to use.
 
 Basically just a compilation of math classes, functions and methods which I keep adding to as I learn them. 
